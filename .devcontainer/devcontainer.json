@@ -1,0 +1,21 @@
+{
+  "name": "Automata Toolkit",
+
+  "image": "mcr.microsoft.com/devcontainers/cpp:1-ubuntu-22.04",
+
+  "features": {},
+
+  "postCreateCommand": "sudo apt update && sudo apt install -y graphviz  && mkdir -p dots inputs images outputs",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "formulahendry.code-runner"
+      ]
+    }
+  },
+
+  "remoteUser": "vscode"
+}
